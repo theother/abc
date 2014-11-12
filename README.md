@@ -23,14 +23,15 @@ yz
 
 
 
+
 Basic
 =====
 GSAP can tween any numeric property of any JS obj.
 
 ```javascript
-sadfsadf
-```
- 
+var obj = {prop: 0};
+TweenLite.to(obj, 2, {prop:100});
+``` 
 __Paramaters__
 1. Traget
 2. Duration
